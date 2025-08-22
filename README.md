@@ -13,12 +13,18 @@ cd DeepMaT
 conda env create -f environment.yml
 ``` 
 
-3. Train model
+3. Data
+Before running, you need to obtain the ISM features and make sure that you have set up the ISM configuration file according to note.
+```
+python ISM/ISM.py
+```
+
+4. Train model
 ```
 python train_model.py
 ```
 
-4. Test model
+5. Test model
 ```
 python sample_model.py
 ```
