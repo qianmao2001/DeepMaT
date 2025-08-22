@@ -15,7 +15,7 @@ conda env create -f environment.yml
 
 3. Data
    
-Before running, you need to obtain the ISM features and make sure that you have set up the ISM configuration file according to note.
+   Before running, you need to obtain the ISM features and make sure that you have set up the ISM configuration file according to note.
 ```
 python ISM/ISM.py
 ```
