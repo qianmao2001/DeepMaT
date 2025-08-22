@@ -14,6 +14,7 @@ conda env create -f environment.yml
 ``` 
 
 3. Data
+   
 Before running, you need to obtain the ISM features and make sure that you have set up the ISM configuration file according to note.
 ```
 python ISM/ISM.py
@@ -28,6 +29,6 @@ python train_model.py
 ```
 python sample_model.py
 ```
-# Note
+## Note
 
 ISM model files are required for full operation, just download `checkpoint.pth` and `model.safetensors` into the ism directory at https://huggingface.co/jozhang97/ism_t33_650M_uc30pdb.
