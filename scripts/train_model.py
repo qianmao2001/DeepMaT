@@ -1,12 +1,12 @@
 import gc
 import time
-from DeepMaT import tool
+import tool
 import torch
 from torch.utils.data import DataLoader
 
-from DeepMaT.data.load_data import creat_data, pre_read
-from DeepMaT.model.composite_model import ProteinModel
-from DeepMaT.tool import species_to_one_hot
+from data.load_data import creat_data, pre_read
+from model.composite_model import ProteinModel
+from tool import species_to_one_hot
 
 
 def train(train_model, train_optimizer,train_loader):

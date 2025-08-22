@@ -1,7 +1,7 @@
 import torch
-from DeepMaT import tool
-from DeepMaT.tool import ISM_Feature
-from DeepMaT.model.composite_model import ProteinModel
+import tool
+from tool import ISM_Feature
+from model.composite_model import ProteinModel
 from matplotlib import pyplot as plt
 
 tool.set_seed(42)

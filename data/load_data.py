@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import torch
-from DeepMaT.tool import TPDataset
+from tool import TPDataset
 
 amino_acid_to_int = {'X': 0, 'M': 1, 'I': 2, 'L': 3, 'S': 4, 'H': 5, 'R': 6, 'P': 7, 'A': 8,
                              'W': 9, 'F': 10, 'D': 11, 'C': 12, 'T': 13, 'N': 14, 'V': 15, 'G': 16,
