@@ -28,6 +28,7 @@ python train_model.py
 5. Test model
    
    We provide a trained model weight, just download and move it to /DeepMaT/model/ and execute the following python code.
+   
    [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17151093.svg)](https://doi.org/10.5281/zenodo.17151093)
 ```
 python sample_model.py
